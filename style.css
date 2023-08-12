@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Archivo+Narrow:ital@0;1&family=Rubik+Wet+Paint&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('/wp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    
+}
+
+.heading{
+
+    color: white;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    background-image: linear-gradient(360deg , rgb(255, 0, 0) , white);
+    background-clip: text;
+    color: transparent;
+    width: 100%;
+    margin: 5rem auto;
+    position: absolute;
+    text-align: center;
+
+}
+
+.continer{
+    
+    height: 350px;
+    width: 450px;
+    background-color: transparent;
+    border: 1px solid white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    border-radius: 70px;
+    bottom: 30px;
+    padding-top: 50px;
+}
+
+
+#longUrl{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 1px;
+    border: none;
+    
+}
+
+#Shortenbtn{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+
+#Shortenbtn:hover{
+    color: black;
+    background-color: white;
+    transition: 2.5s;
+    border: 0.7px solid black;
+}
+
+
+
+/* 2nd input boc */
+#shortUrl{
+    position: relative;
+    top: 43%;
+    left: 10%;
+    height: 32px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+
+    
+}
+
+
+#copybtn{
+    position: relative;
+    top: 43%;
+    left: 10%;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+
+#copybtn:hover{
+
+    color: black;
+    background-color: white;
+    transition: 2.5s;
+    border: 0.7px solid black;
+}
+
